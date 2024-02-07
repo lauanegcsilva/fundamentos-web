@@ -4,30 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contato</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
   </head>
   <body>
-    <ul>
+    <ul id="menu">
       <li><a href="./index.html">Home</a></li>
       <li><a href="./contato.html">Contato</a></li>
+      <li><img src="assets/img/logo.png" alt="Logo marca" /></li>
     </ul>
-    <header>
-      <h1>Entre em contato comigo!</h1>
-    </header>
 
-    <form>
-      <label for="nome">Nome:</label> <br />
-      <input type="text" id="nome" />
-      <br />
-      <br />
-      <label for="email">E-mail:</label> <br />
-      <input type="email" id="email" />
-      <br />
-      <br />
-      <label for="assunto">Assunto:</label> <br />
-      <textarea name="assunto" id="assunto" cols="30" rows="5"></textarea>
-      <br /><br />
-      <button>Enviar</button>
-    </form>
+    <main>
+      <h1>Entre em contato comigo!</h1>
+      <form>
+        <label for="nome">Nome:</label> <br />
+        <input type="text" id="nome" />
+        <br />
+        <br />
+        <label for="email">E-mail:</label> <br />
+        <input type="email" id="email" />
+        <br />
+        <br />
+        <label for="assunto">Assunto:</label> <br />
+        <textarea name="assunto" id="assunto" cols="30" rows="5"></textarea>
+        <br /><br />
+        <button>Enviar</button>
+      </form>
+    </main>
 
     <h2>Endereço:</h2>
     <iframe
@@ -39,7 +46,6 @@
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
     ></iframe>
-    <p>Av Ipanema, 1122</p>
-    <p>Sorocaba/SP</p>
+    <p>Av Ipanema, 1122, Sorocaba/SP</p>
   </body>
 </html>
